@@ -1,71 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 #root {
     min-height: 768px;
     background: linear-gradient(180deg, #0837B0 0%, #021E66 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding-top: 189px;
 }
-
-.number_block {
-    display: block;
-    margin: 0 auto;
-    padding: 62px 0;
-    width: 300px;
-    height: 300px;
-    background: #FFFFFF;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    margin: 0 auto;
-    font-family: "Roboto";
-    font-size: 150px;
-    color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-}
-
-.btn_block {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 34px;
-    width: 272px;
-    height: 65px;
-}
-
-.btn_block .btn_item {
-    width: 65px;
-    height: 65px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.btn_block .btn_item:first-of-type {
-    background-color: #089C20;
-    background-image: url('./img/Vector.png');
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.btn_block .btn_item:nth-of-type(2) {
-    background-color: #E7AA10;
-    background-image: url('./img/Minus.png');
-    background-position: top 60% left 75%;
-    background-repeat: no-repeat;
-}
-
-.btn_block .btn_item:last-of-type {
-    background-color: #CF1C1C;
-    background-image: url('./img/Reset.png');
-    background-position: top 70% left 75%;
-    background-repeat: no-repeat;
-}
- 
-
 
